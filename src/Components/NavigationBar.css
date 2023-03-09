@@ -1,0 +1,64 @@
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: #0d6efd;
+    color: white;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.left_content {
+    display: flex;
+    padding-top: 5px;
+}
+
+.form-control {
+    height: 30px;
+    margin-left: 100px;
+}
+
+.search {
+    display: flex;
+    width: 500px;
+}
+
+.glass {
+    margin-left: 10px;
+    margin-top: 6px;
+}
+.glass:hover{
+    cursor: pointer;
+}
+.right_content{
+    float: right;
+    display: flex;
+    align-items: center;
+}
+.center_content{
+    display: flex;
+    margin-right: 250px;
+}
+.drop-content{
+    margin-left: -142px;
+}
+
+.home:hover{
+    cursor: pointer;
+}
+
+.searchBar:hover{
+    cursor: pointer;
+}
+
+/* .input{
+    height: ;
+} */
+
+.chatBox{
+    display: flex;
+    max-height: 3400px;
+    overflow-y : scroll;
+    flex-direction: column-reverse;
+}
+
